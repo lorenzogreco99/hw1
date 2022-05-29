@@ -1,0 +1,271 @@
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #017383;
+}
+
+nav {
+    height: 60px;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    border-bottom: 1px solid #017383;
+    z-index: 2;
+
+}
+
+nav a {
+    font-size: 25px;
+    background-color: rgba(0,0,0,0);
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #017383;
+  }
+  
+  nav a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+#logoimg{
+    margin-top: 60px;
+    height: auto;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 15px 0px 10px 10px;
+}
+
+#box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    height: 30px;
+    background-color: #012d34;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    z-index: 2;
+
+}
+  
+footer span{
+    margin:10px;
+    font-size: 18px;
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top:20px; 
+    left:0;
+    bottom: 80px;
+    width: 20%;
+    height:100%;
+    border-right:1px solid #017383;
+    margin-top:25px ;
+    font-size: 1.4em;
+    z-index: 1;
+}
+
+#rubrica{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:20px; 
+    right:0;
+    bottom: 80px;
+    width: 20%;
+    height:100%;
+    border-left:1px solid #017383;
+    margin-top:25px ;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+#rubrica h2{
+    margin-top: 50px;
+}
+
+#bottone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    background-color: #017383;
+    color:white;
+}
+
+#bottone:hover{
+    background-color: white;
+    border: 1px solid #017383;
+    color:#017383;
+}
+
+#pagina{
+    margin: 60px 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.post{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin:20px;  
+    width: 90%;
+    border: 2px solid #017383;
+
+}
+.email{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 16px;
+    width: auto;
+}
+
+.fotoprofilo{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.foto{
+    width: 100%;
+    border-radius: 5px;
+    max-height: 500px;
+    
+    
+}
+
+.imglike{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 0px;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#modale{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#flex0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img-modale{
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+#exit{
+    color: white;
+    font-size: 50px;
+    
+    position: fixed;
+    top:30px;
+    right: 40px;
+}
+
+#exit:hover{
+    color: red;
+}
+
+.ncomments:hover{
+    color:#012d34
+
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+#flex1{
+    height: 500px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#info{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#insert{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 40px;
+}
+
+.com{
+    margin-bottom: 5px;
+}
+
+#testo_c{
+    border:2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}

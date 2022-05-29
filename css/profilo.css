@@ -1,0 +1,171 @@
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #017383;
+}
+
+nav {
+    height: 60px;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    border-bottom: 1px solid #017383;
+}
+
+nav a {
+    font-size: 25px;
+    background-color: rgba(0,0,0,0);
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #017383;
+}
+  
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+footer div{
+    height: 30px;
+    background-color: #012d34;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+
+}
+  
+footer span{
+    margin:10px;
+    font-size: 12px;
+}
+
+#pagina{
+    margin:80px 15%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #017383;
+    font-size: 20px;
+}
+
+#nome{
+    font-size: 50px;
+    margin: 16px;
+}
+#dati{
+    display: flex;
+    flex-direction: column;
+}
+#dati div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: -7px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#album{
+    display: flex;
+    justify-content: space-around;
+    margin:0 15%;   
+    margin-bottom: 80px; 
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #017383;
+    margin-bottom: 20px;
+}
+
+.foto{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+#modale{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#flex0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img-modale{
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+#exit{
+    color: white;
+    font-size: 50px;
+    
+    position: fixed;
+    top:30px;
+    right: 40px;
+}
+
+#exit:hover{
+    color: red;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+#flex1{
+    height: 500px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#info{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

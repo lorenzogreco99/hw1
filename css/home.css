@@ -1,0 +1,109 @@
+body{
+  margin:0;
+  font-family:helvetica, sans-serif;
+}
+nav {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  
+}
+
+nav a {
+  font-size: 20px;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(13, 96, 148);
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:500px;
+  width:100%;
+  background-color: #017383;
+  
+}
+
+header h1{
+  
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 90px;
+  letter-spacing: 15px;
+  color:white;
+  text-shadow:5px 5px 5px rgb(254, 0, 0);
+}
+
+#logoimg{
+  height: 250px;
+  width: 250px;
+  margin-right: 50px;
+}
+
+section{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+section h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: 5px;  
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+  background-color:rgb(255, 255, 255);
+  padding: 30px;
+  color: #017383;
+}
+
+#flex0{
+  margin:40px 0px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+section img{
+  margin: 10px;
+  width: 100px;
+  height:100px;
+}
+
+footer div{
+  height: 80px;
+  background-color: #012d34;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer span{
+  margin:10px;
+  font-size: 20px;
+}
